@@ -111,7 +111,14 @@ export default {
         );
 
         if (response.status === 200) {
-          console.log('Connexion réussie!');
+            // console.log(response.data);
+            var data = response.data;
+            if (data.error) {
+              this.error = data.error;
+            } else {
+               window.location.href = '/appsuite/ui';
+            }
+            
        
         } else {
           this.error = response.status;

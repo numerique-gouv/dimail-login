@@ -4,6 +4,8 @@
 .nitro
 .cache
 
+client/pages/chat.vue
+
 # Node dependencies
 node_modules
 
