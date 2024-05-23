@@ -28,6 +28,11 @@ export default defineNuxtConfig({
         },
       ],
     },
+    // buildAssetsDir: './_nuxt/',
+    cdnURL: './',
+  },
+  build: {
+    publicPath: '.',
   },
   devtools: { enabled: true },
   ssr: true,
