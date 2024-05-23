@@ -1,0 +1,29 @@
+{
+  "name": "dimail-redirect-agent",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@gouvfr-lasuite/integration": "^0.1.1",
+    "@gouvfr/dsfr": "^1.11.2",
+    "@gouvminint/vue-dsfr": "^5.14.2",
+    "axios": "^1.7.2",
+    "nuxt": "^3.11.1",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "qs": "^6.12.1",
+    "vue": "^3.4.21",
+    "vue-dsfr-nuxt-module": "^1.1.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.12.1",
+    "eslint": "9.0.0-rc.0"
+  }
+}
