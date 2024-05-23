@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     async login() {
-      const loginUrl = 'http://localhost:8337/appsuite/api/login?action=login';
+      const loginUrl = '/appsuite/api/login?action=login';
 
       try {
           const requestBody = qs.stringify({
